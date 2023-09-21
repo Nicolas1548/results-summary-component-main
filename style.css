@@ -6,20 +6,27 @@
     src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 
-body {
-    font-family: 'Hanken Grotesk',sans-serif ;
-    font-size: 1/8px;
+html {
+    font-size: 62.5%;
 }
 
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 200px;
+}
 
 .box {
     width: 250px;
     height: 350px;
-    background-color: hsl(252, 100%, 67%);
-    border-radius: 7%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
     padding: 1em;
-    display: inline-block;
-    margin: 0 auto;
     text-align: center;
     color: white;
 }
@@ -28,28 +35,167 @@ body {
     width: 250px;
     height: 350px;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 7%;
+    border-radius: 25px;
     padding: 1em;
-    display: inline-block;
-    margin: 0 auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px hsl(221, 100%, 96%);
+    border: 1px solid white;
+}
+
+img {
     
+}
+
+.box2 h2 {
+    color: hsl(224, 30%, 27%);
+    margin-left: 20px;
+
 }
 
 .box3 {
     width: 140px;
     height: 140px;
     border-radius: 100%;
-    background-color: hsla(256, 72%, 46%, 1);
-    text-align: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%, 0.159));
     display: grid;
     margin: 0 auto;
+    justify-content: center;
+    align-content: center;
 }
 
-.attribution {
-    font-size: 11px;
+.box3 h1 {
+    vertical-align: middle;
+    font-size: 40pt;
+}
+
+.box3 h3 {
+    margin-top: -50px;
+    color: hsla(223, 9%, 68%, 0.9);
+}
+
+.greatp h1 {
+    font-size: 18pt;
+}
+
+.greatp h3 {
+    color: hsla(223, 9%, 68%, 0.9);
+    font-size: 10pt;
+}
+
+.head1 {
+    font-size: 12px;
+    color: hsla(223, 9%, 68%, 1);
+}
+
+.head2 {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.box-table {
+    margin-left: 10px;
+
+}
+
+.box-summary-reaction {
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: hsla(0, 100%, 67%, 0.06);
+
+}
+
+.reaction {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 11pt;
+    color: hsl(0, 100%, 67%);
+    padding-right: 90px;
+    font-weight: bolder;
+}
+
+.box-summary-memory {
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: hsla(39, 100%, 56%, 0.06);
+    margin-top: 10px;
+}
+
+.memory {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 11pt;
+    color: hsl(39, 100%, 56%);
+    padding-right: 91px;
+    font-weight: bolder;
+}
+
+.box-summary-verbal {
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: hsla(166, 100%, 37%, 0.06);
+    margin-top: 10px;
+}
+
+.verbal {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 11pt;
+    padding-right: 103px;
+    color: hsl(166, 100%, 37%);
+    text-align: justify right;
+    font-weight: bolder;
+}
+
+.box-summary-visual {
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: hsla(234, 85%, 45%, 0.06);
+    margin-top: 10px;
+}
+
+.visual {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 11pt;
+    padding-right: 105px;
+    color: hsl(234, 85%, 45%);
+    font-weight: bolder;
+}
+
+
+.score1 {
+    font-size: 11pt;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.score2 {
+    color: hsla(224, 30%, 27%, 0.5);
+    font-weight: bolder;
+}
+
+.continue {
+    color: white;
+    border: 2px solid white;
+    background-color: hsl(224, 30%, 27%);
     text-align: center;
+    border-radius: 20px;
+    padding: 2px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor:pointer;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+footer p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
 }
