@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&family=Titillium+Web&display=swap');
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: 'Hanken Grotesk',sans-serif ;
+    font-size: 1/8px;
+}
+
+
+.box {
+    width: 250px;
+    height: 350px;
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 7%;
+    padding: 1em;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.box2 {
+    width: 250px;
+    height: 350px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 7%;
+    padding: 1em;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+.box3 {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-color: hsla(256, 72%, 46%, 1);
+    text-align: center;
+    display: grid;
+    margin: 0 auto;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
